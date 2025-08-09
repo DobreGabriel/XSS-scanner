@@ -1,0 +1,14 @@
+{
+  "name": "xss-edu",
+  "version": "1.0.0",
+  "description": "Scanner XSS educativo per test su ambienti locali",
+  "main": "xss-edu-scanner.js",
+  "scripts": {
+    "start": "node xss-edu-scanner.js http://localhost:3000"
+  },
+  "author": "Dobre Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
